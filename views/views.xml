@@ -23,7 +23,7 @@
 			</xpath>
 -->
 			<xpath expr="/form/sheet/group/group/field[@name='tag_ids']" position="attributes">
-				<attribute name="invisible">1</attribute>
+				<attribute name="modifiers">{'invisible': True}</attribute>
 			</xpath>
 
 			<xpath expr="/form/sheet/group/group/field[@name='user_id']" position="attributes">
