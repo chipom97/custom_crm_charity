@@ -10,10 +10,6 @@
                 <field name="location"/>
             </xpath>
 
-            <xpath expr="/form/sheet/notebook/page[@name='sales_purchases']" position="attributes">
-                <attribute name="invisible">1</attribute>
-            </xpath>
-
             <xpath expr="/form/sheet/notebook/page[@name='internal_notes']" position="after">
                <page name="donation_detail" string="Donation Details">
                </page>
