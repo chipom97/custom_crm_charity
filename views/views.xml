@@ -6,9 +6,8 @@
         <field name="inherit_id" ref="crm.crm_lead_view_form"/>
         <field name="arch" type="xml">
 
-            <xpath expr="/form/sheet/group/group/field[@name='vat']" position="after">
+            <xpath expr="/form/sheet/group/group/field[@name='partner_name']" position="after">
                 <field name="location"/>
-                <field name="city"/>
             </xpath>
 
             <xpath expr="/form/sheet/notebook/page[@name='sales_purchases']" position="attributes">
@@ -21,7 +20,7 @@
                <page name="report_detail" string="Report Details">
                </page>
             </xpath>
-			
+
         </field>
     </record>
 </odoo>
