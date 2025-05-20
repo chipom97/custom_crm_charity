@@ -6,3 +6,4 @@ class CrmLead(models.Model):
     incident_date = fields.Date(string="Date")
     relationship = fields.Char(string="Relationship")
     id_number = fields.Char(string="ID Number")
+    description = fields.Text(string="Description of Incident")

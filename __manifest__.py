@@ -1,5 +1,5 @@
 {
-    'name': 'Custom CRM',
+    'name': 'Custom CRM - BPS',
     'version': '17.0',
     'author': 'Automate Africa',
     'depends': ['crm'],
