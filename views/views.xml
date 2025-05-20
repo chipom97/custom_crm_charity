@@ -46,6 +46,7 @@
 
             <xpath expr="/form/sheet/notebook/page[@name='internal_notes']" position="after">
                <page name="description" string="Description of Incident">
+			   <field name="description"/>
                </page>
             </xpath>
 
