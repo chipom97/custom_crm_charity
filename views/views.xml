@@ -38,8 +38,10 @@
 				<attribute name="invisible">1</attribute>
 			</xpath>
 
-			<xpath expr="/form/sheet/group/group/field[@name='partner_id']" position="attributes">
-				<attribute name="string">Surname</attribute>
+			<xpath expr="/form/sheet/group/group/field[@name='partner_id']" position="after">
+				<field name="incident_date"/>
+				<field name="relationship"/>
+				<field name="id_number"/>
             </xpath>
 
             <xpath expr="/form/sheet/notebook/page[@name='internal_notes']" position="after">
